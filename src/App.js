@@ -77,9 +77,9 @@ function App() {
           {/* <SideBar /> */}
         <Routes>
           <Route exact path="/" element={<Home/>}/>
-          <Route path="/signup" element={<Signup/>}/>
-          <Route path="/login" element={<Login/>}/>
-          <Route path="/messenger" element={<Messenger/>}/>
+          <Route exact path="/signup" element={<Signup/>}/>
+          <Route exact path="/login" element={<Login/>}/>
+          <Route exact path="/messenger" element={<Messenger/>}/>
         </Routes>
       </Router>
     </div>
